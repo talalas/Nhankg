@@ -1,0 +1,110 @@
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fragmented Mode V4 Test Executed Successfully ",true)
+wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Credits flashlight toThe_LOSTW3R, nhankg And Guestly",true)
+
+-- Door Changer Floor 2 And Sound
+coroutine.wrap(function()
+    while true do
+        wait(0.0005)
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value].Door.Door.Open.SoundId = "rbxassetid://833871080"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]:FindFirstChild("Door"):FindFirstChild("Door").Material = "Rock"
+workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]:FindFirstChild("Door"):FindFirstChild("Door"):FindFirstChild("Sign").Material = "Rock"
+    end
+end)()
+
+-- goofy screech
+game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(255, 255, 0)
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.SoundId = "rbxassetid://6600188325"
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.PlaybackSpeed = 1.6
+game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Attack.SoundId = "rbxassetid://7236490488"
+
+-- Dread
+coroutine.wrap(function()
+    while true do
+        wait(80)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet("https://pastebin.com/raw/PtNcYnqX"))()
+
+end
+
+end)()
+
+-- hunger
+coroutine.wrap(function()
+    while true do
+        wait(234)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/talalas/X/refs/heads/main/Hungered"))()
+
+end
+
+end)()
+
+-- Rebound
+coroutine.wrap(function()
+    while true do
+        wait(323)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/loca/refs/heads/main/rebnad"))()
+
+end
+
+end)()
+
+-- Struggle
+coroutine.wrap(function()
+    while true do
+        wait(435)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsHubs/Tutorial/refs/heads/main/Struggled"))()
+
+end
+
+end)()
+
+-- tormant
+coroutine.wrap(function()
+    while true do
+    wait(190)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/talalas/Hh/refs/heads/main/Tormant"))()
+    
+end
+
+end)()
+
+-- daze
+coroutine.wrap(function()
+    while true do
+    wait(35)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/talalas/-/refs/heads/main/daze"))()
+    
+end
+
+end)()
+
+-- Fluster
+coroutine.wrap(function()
+    while true do
+    wait(323)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/talalas/By-me/refs/heads/main/Fluster"))()
+
+end
+
+end)()
+
+-- Revoker
+coroutine.wrap(function()
+    while true do
+    wait(336)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsHubs/Tutorial/refs/heads/main/Revoker"))()
+
+end
+
+end)()
+
+-- Sprint Bar
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsHubs/Doors-Hubs/refs/heads/main/Hardcore%20Sprint%20System%20(PC%20and%20Mobile%20Adaptation).lua.txt"))()
+   
+-- Flashlight purple
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/thelostw3r/Scripts/refs/heads/main/PurpleFlashlight.lua"))()
